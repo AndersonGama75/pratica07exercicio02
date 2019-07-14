@@ -1,0 +1,68 @@
+table {
+	border: 1px solid #3b5998;
+	border-collapse: collapse;
+	width: 38%;
+	height: 700px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+thead {
+	color: white;
+	background-color: #3b5998;
+	font-size: 33px;
+	font-weight: bold;
+	text-align: center;
+}
+.discip {
+	vertical-align: top;
+	color: #3b5998;
+	background-color: white;
+	font-weight: bold;
+	padding-top: 20px;
+	width: 130px;
+}
+tbody{
+	font-size: 24px;
+}
+td {
+	border: 1px solid #3b5998;
+	padding-left: 10px;
+}
+tbody tr:nth-child(odd) {
+	background-color: #dfe3ee;
+}
+tbody tr:nth-child(even) {
+	background-color: #889dc3;
+}
+.med {
+	background-color: #ff4500;
+	color: white;
+}
+.cabecalho {
+	height: 60px;
+}
+tbody td:hover {
+	background-color: #ff4500;
+	color: white;
+}
+thead td:hover {
+	color:  #ff4500;
+}
+#textPost {
+	position: relative;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	top: -400px;
+	background-color: #3b5998;
+	width:500px;
+}
+#textPost02 {
+	position: relative;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	top: -400px;
+	background-color: #3f8437;
+	width:500px;
+}

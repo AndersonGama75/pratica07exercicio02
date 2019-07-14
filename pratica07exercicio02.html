@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Prática 07 - Exercício 02</title>
+		<link rel="stylesheet" href="pratica07exercicio02.css"/>
+	</head>
+	<body>
+		<script src="pratica07exercicio02.js"></script>
+		<table id="tab">
+			<thead>
+				<th>
+					<td class="cabecalho">Disciplina</td>
+					<td class="cabecalho">Aluno</td>
+					<td class="cabecalho">P1</td>
+					<td class="cabecalho">P2</td>
+					<td class="cabecalho">Total</td>
+				</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="discip" rowspan="7" colspan="2">Web</td>					
+				</tr>
+				<tr id="aln01" onmouseover="dados(id)" onmouseout="dados02()">
+					<td>Ana</td>
+					<td>29</td>
+					<td>17</td>
+					<td>46</td>
+				</tr>
+				<tr id="aln02" onmouseover="dados(id)" onmouseout="dados02()">
+					<td>Eva</td>
+					<td>27</td>
+					<td>17</td>
+					<td>44</td>
+				</tr>
+				<tr id="aln03" onmouseover="dados(id)" onmouseout="dados02()">
+					<td type="text">Gil</td>
+					<td>28</td>
+					<td>15</td>
+					<td>43</td>
+				</tr>
+				<tr id="aln04" onmouseover="dados(id)" onmouseout="dados02()">
+					<td>Ise</td>
+					<td>25</td>
+					<td>15</td>
+					<td>40</td>
+				</tr>
+				<tr id="aln05" onmouseover="dados(id)" onmouseout="dados02()">
+					<td>Ive</td>
+					<td>26</td>
+					<td>20</td>
+					<td>46</td>
+				</tr>
+				<tr>
+					<td class="med">Média Web</td>
+					<td class="med" colspan="3">43,8</td>
+				</tr>
+				<tr>
+					<td class="discip" rowspan="7" colspan="2">Lógica de Programação</td>					
+				</tr>
+				<tr id="aln06" onmouseover="dados(id)" onmouseout="dados02()">
+					<td>Ana</td>
+					<td>29</td>
+					<td>17</td>
+					<td>46</td>
+				</tr>
+				<tr id="aln07" onmouseover="dados(id)" onmouseout="dados02()">
+					<td>Eva</td>
+					<td>27</td>
+					<td>17</td>
+					<td>44</td>
+				</tr>
+				<tr id="aln08" onmouseover="dados(id)" onmouseout="dados02()">
+					<td>Gil</td>
+					<td>28</td>
+					<td>15</td>
+					<td>43</td>
+				</tr>
+				<tr id="aln09" onmouseover="dados(id)" onmouseout="dados02()">
+					<td>Ise</td>
+					<td>25</td>
+					<td>15</td>
+					<td>40</td>
+				</tr>
+				<tr id="aln10" onmouseover="dados(id)" onmouseout="dados02()">
+					<td>Ive</td>
+					<td>26</td>
+					<td>20</td>
+					<td>46</td>
+				</tr>
+				<tr>
+					<td class="med">Média Lógica de Programação</td>
+					<td class="med" colspan="3">43,8</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="textPost"></div>
+		<div id="textPost02"></div>
+	</body>
+</html>
